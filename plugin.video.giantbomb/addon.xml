@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.giantbomb"
        name="Giant Bomb"
-       version="5.0pre"
-       provider-name="Jim">
+       version="6.0.2"
+       provider-name="Craig">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="2.0.10"/>
@@ -15,7 +15,7 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Giant Bomb video plugin</summary>
-    <description lang="en">Giant Bomb is a video game enthusiast site with a sense of humor. Watch Jeff Gerstmann and crew in thousands of original game videos, reviews and previews.</description>
+    <description lang="en">This is fan cleanup for an unofficial plugin for Giant Bomb. Giant Bomb is a video game enthusiast site with a sense of humor. Watch Jeff Gerstmann and crew in thousands of original game videos, reviews and previews.</description>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
     <forum></forum>

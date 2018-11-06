@@ -1,4 +1,14 @@
-[B]5.0.0[/B] (in progress)
+[B]6.0.2[/B] (in progress)
+- Pulled in https://github.com/HawaiinYeti/giantbomb-kodi/tree/live-video which
+  is to fix https://github.com/jimporter/giantbomb-kodi/pull/15.
+- Pulled in https://github.com/Giacom/giantbomb-kodi/tree/Giacom-patch-1  which
+  is to fix https://github.com/jimporter/giantbomb-kodi/pull/10.
+- Update `Makefile` to use `.kodi` instead of the older `.xbmc`.
+- Fix pulling out the API Key from the new JSON API Key structure (Currently on
+  24hr API key lockout, so needs confirmation).
+- Flake8 clean up of `default.py`.
+
+[B]5.0.0[/B]
 - Improve the "Go to page..." function
 - Fix HD-quality videos due to recent API changes
 
