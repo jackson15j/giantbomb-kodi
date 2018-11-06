@@ -17,7 +17,7 @@ addon_id = int(sys.argv[1])
 my_addon = xbmcaddon.Addon('plugin.video.giantbomb')
 
 def update_api_key(api_key):
-    my_addon.setSetting('api_key', api_key)
+    my_addon.setSetting('api_key', api_key.get("apiKey"))
 
 gb = GiantBomb(my_addon.getSetting('api_key') or None, update_api_key,
                my_addon.getSetting('use_https') == 'true')
