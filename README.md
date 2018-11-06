@@ -17,7 +17,7 @@ Development
 
 The actual source for the add-on is in `plugin.video.giantbomb/`. To make
 development easier, there are `make` commands to install/uninstall the add-on
-from your local XBMC instance:
+from your local Kodi instance:
 
 ```
 make install-dev
